@@ -9,6 +9,7 @@ Create a web-service that sends an email to one or many users. The email recipie
 ### Useful Links:
 - [CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) on Git
 - [JavaEmails](http://www.tutorialspoint.com/java/java_sending_email.htm) on Tutorials Point
+- [RestParamCollection](http://stackoverflow.com/questions/2602043/rest-api-best-practice-how-to-accept-list-of-parameter-values-as-input) on StackOverflow
 
 ### Plan: 
 1. Create a new  _______ IntelliJ project. (rest webservice?)

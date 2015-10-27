@@ -54,7 +54,11 @@ public class HelloWorld {
 
 
 
-    public void sendEmail() {
+
+
+
+
+    public void sendEmail(EmailMessage emailMessage) {
 
             final String username = "slackTeamTest@gmail.com";
             final String password = "weLoveSlack";
@@ -78,13 +82,12 @@ public class HelloWorld {
                 message.setFrom(new InternetAddress("slackTeamTest@gmail.com"));
                 message.setRecipients(Message.RecipientType.TO,
                         InternetAddress.parse("slackTeamTest@gmail.com"));
-                message.setSubject("A testing mail header !!!");
-                message.setText("Dear Mail Crawler,"
-                        + "\n\n No spam to my email, please!");
+                message.setSubject(emailMessage.getSubject());
+                message.setText(emailMessage.getBody());
 
                 Transport.send(message);
 
-                System.out.println("Done");
+                System.out.println("Your email has been sent");
 
             } catch (MessagingException e) {
                 throw new RuntimeException(e);
@@ -104,11 +107,18 @@ public class HelloWorld {
 
         HelloWorld tester = new HelloWorld();
 
+        String subject = "This is the subject line.";
+        String body = "This is the body messages.";
+
+
+
+        EmailMessage message = new EmailMessage(subject, body);
+
 
 
         server.start();
 
-        tester.sendEmail();
+        tester.sendEmail(message);
 
 
         System.out.println("Server running");

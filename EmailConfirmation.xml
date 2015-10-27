@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<email_response>
+    <message>
+        <recipient>lanny@gmail.com</recipient>
+        <status>Success</status>
+        <subject>It is really dark and cold today</subject>
+        <body>I should have worn a sweater because I am cold. The weatherman was dead wrong... again.</body>
+        <time_sent>somehow add system time</time_sent>
+    </message>
+</email_response>

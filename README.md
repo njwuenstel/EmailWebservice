@@ -12,7 +12,9 @@ Create a web-service that sends an email to one or many users. The email recipie
 - [RestParamCollection](http://stackoverflow.com/questions/2602043/rest-api-best-practice-how-to-accept-list-of-parameter-values-as-input) on StackOverflow
 
 ### Plan: 
-
+1. Create a method that allows for the parameters we want.
+2. Create a method that tells whether the email has been sent or not. (Enum class?)
+3. JavaBean? Make it include a footer.
 
 
 ### Notes:

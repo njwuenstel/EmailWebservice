@@ -12,9 +12,7 @@ Create a web-service that sends an email to one or many users. The email recipie
 - [RestParamCollection](http://stackoverflow.com/questions/2602043/rest-api-best-practice-how-to-accept-list-of-parameter-values-as-input) on StackOverflow
 
 ### Plan: 
-1. Create a new  _______ IntelliJ project. (rest webservice?)
-2. Create a git repository for the new project.
-3. Add mail.jar and activation.jar files in your CLASSPATH. See [JavaEmails](http://www.tutorialspoint.com/java/java_sending_email.htm)
+
 
 
 ### Notes:

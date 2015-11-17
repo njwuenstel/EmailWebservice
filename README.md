@@ -17,3 +17,7 @@ Create a web-service that sends an email to one or many users. The email recipie
 - [Java Emails](http://www.tutorialspoint.com/java/java_sending_email.htm) on Tutorials Point
 - [Rest Param Collection](http://stackoverflow.com/questions/2602043/rest-api-best-practice-how-to-accept-list-of-parameter-values-as-input) on StackOverflow
 
+### How to use our Email Webservice:
+- 
+-
+-

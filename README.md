@@ -18,6 +18,6 @@ Create a web-service that sends an email to one or many users. The email recipie
 - [Rest Param Collection](http://stackoverflow.com/questions/2602043/rest-api-best-practice-how-to-accept-list-of-parameter-values-as-input) on StackOverflow
 
 ### How to use our Email Webservice:
-- 
--
--
+- Two different URL path options 
+	-one takes an arrary of recipients' address in string form
+	-one takes an array of reciptient objects

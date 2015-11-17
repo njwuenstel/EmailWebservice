@@ -13,7 +13,7 @@
 Create a web-service that sends an email to one or many users. The email recipients and email contents are based on parameters. The parameters that we would require are: a collection of emails, a subjectLine, and messageContent.
 				   
 ### Useful Links:
-- [CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) on Git
-- [JavaEmails](http://www.tutorialspoint.com/java/java_sending_email.htm) on Tutorials Point
-- [RestParamCollection](http://stackoverflow.com/questions/2602043/rest-api-best-practice-how-to-accept-list-of-parameter-values-as-input) on StackOverflow
+- [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) on Git
+- [Java Emails](http://www.tutorialspoint.com/java/java_sending_email.htm) on Tutorials Point
+- [Rest Param Collection](http://stackoverflow.com/questions/2602043/rest-api-best-practice-how-to-accept-list-of-parameter-values-as-input) on StackOverflow
 

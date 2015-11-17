@@ -19,5 +19,5 @@ Create a web-service that sends an email to one or many users. The email recipie
 
 ### How to use our Email Webservice:
 - Two different URL path options 
-	-one takes an arrary of recipients' address in string form
-	-one takes an array of reciptient objects
+	- one takes an arrary of recipients' address in string form
+	- one takes an array of reciptient objects

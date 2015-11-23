@@ -7,10 +7,21 @@ public class EmailMessage {
     private String subject;
     private String body;
 
-    // Constructor
+    public EmailMessage() {}
+
+
     public EmailMessage(String subject,String body) {
         setSubject(subject);
         setBody(body);
+    }
+
+    public EmailMessage(String template, String subject, String body) {
+
+        StringBuilder bodyWithTemplate = new StringBuilder();
+        bodyWithTemplate.append(template + ",\n\n" + body);
+
+        this.subject = subject;
+        this.body = bodyWithTemplate.toString();
     }
 
     // Get/Set for body

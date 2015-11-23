@@ -1,11 +1,16 @@
 package enterprise.java.entity;
 
+import org.codehaus.jackson.annotate.JsonProperty;
+
 /**
  * Created by Student on 11/16/2015.
  */
 public class Recipient {
 
+    @JsonProperty("email")
     private String emailAddress;
+
+    @JsonProperty("name")
     private String recipientName;
 
     public String getEmailAddress() {

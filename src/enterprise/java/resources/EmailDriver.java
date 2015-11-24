@@ -1,4 +1,5 @@
-package enterprise.java;
+package enterprise.java.resources;
+import enterprise.java.JsonMapper;
 import enterprise.java.entity.EmailMessage;
 import enterprise.java.entity.Recipient;
 import enterprise.java.entity.Recipients;

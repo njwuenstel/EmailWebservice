@@ -6,6 +6,10 @@
 ### Project Goal: 
 Create a web-service that sends an email to one or many users. The email recipients and email contents are based on parameters. The parameters that we would require are: a collection of emails, a subjectLine, and messageContent.
 				   
+### Knownbugs / Limitations
+	* If the subject line exceeds X than it will be truncated.
+	* If the body + recipient(s) exceede 1800 characters than the url length cap will be reached and the email will not be sent.
+	
 ### Rest url + paths
 * BASE URL: http://tomcat-mademailservice.rhcloud.com/NewEmailWebservice_war
 * /rest/sendEmail/test

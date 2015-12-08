@@ -10,6 +10,7 @@ Create a web-service that sends an email to one or many users. The email recipie
 
 * If the subject line exceeds 20 characters than the subject line will be truncated.
 * If the body + recipient(s) exceede 1800 characters than the url length cap will be reached and the email will not be sent.
+* If you use a ' + ' character anywhere, it will be removed and a space will take its place.
 	
 ### Rest url + paths
 ```

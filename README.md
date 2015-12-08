@@ -3,20 +3,19 @@
 - Nathan Wuenstel
 - Brandon Ciancio
 
-### How-To use
-- run the HostServer class
-- open up browser
-- type in something similiar: - http://localhost:9998/sendEmail/A Test Message/This is the body/slackTeamTest@gmail.com
-- profit.
-
 ### Project Goal: 
 Create a web-service that sends an email to one or many users. The email recipients and email contents are based on parameters. The parameters that we would require are: a collection of emails, a subjectLine, and messageContent.
 				   
-### Useful Links:
-- [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) on Git
-- [Java Emails](http://www.tutorialspoint.com/java/java_sending_email.htm) on Tutorials Point
-- [Rest Param Collection](http://stackoverflow.com/questions/2602043/rest-api-best-practice-how-to-accept-list-of-parameter-values-as-input) on StackOverflow
-
+### Rest url + paths
+* BASE URL: http://tomcat-mademailservice.rhcloud.com/NewEmailWebservice_war
+* /rest/sendEmail/test
+	* This returns a string "Hey it Worked"
+* /rest/sendEmail/{sbj}/{msg}/{recipient}"
+	* sbj / msg / recipient = normal string. 
+* /rest/sendEmail/personalize/{sbj}/{msg}/{"recipients":[{"email":"A_EMAIL","name":"A_NAME"},{"email":"A_EMAIL","name":"A_NAME"}]}
+	* sbj / msg = normal string
+	* recipients = a jsonString follow the template.
+	
 ### How to use our Email Webservice:
 - Two different URL path options 
 	- one takes an arrary of recipients' address in string form

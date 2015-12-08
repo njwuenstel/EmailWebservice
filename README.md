@@ -14,14 +14,11 @@ Create a web-service that sends an email to one or many users. The email recipie
 ### Rest url + paths
 ```
 The BASE URL: http://tomcat-mademailservice.rhcloud.com/NewEmailWebservice_war
- /* This returns a string "Hey it Worked" */
+
  		\- rest/sendEmail/test  
-/* sbj / msg / recipient = normal string. */
+
 		\- rest/sendEmail/{sbj}/{msg}/{recipient}" 
-\*
-sbj / msg = normal string
-recipients = a jsonString follow the template. 
-*/
+
 		\- rest/sendEmail/personalize/{sbj}/{msg}/{"recipients":[{"email":"A_EMAIL","name":"A_NAME"},{"email":"A_EMAIL","name":"A_NAME"}]}
 
 ```	

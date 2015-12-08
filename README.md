@@ -13,7 +13,8 @@ Create a web-service that sends an email to one or many users. The email recipie
 	
 ### Rest url + paths
 ```
-The BASE URL: http://tomcat-mademailservice.rhcloud.com/NewEmailWebservice_war
+The BASE URL: 
+	\- http://tomcat-mademailservice.rhcloud.com/NewEmailWebservice_war
 
  		\- rest/sendEmail/test  
 

@@ -24,6 +24,4 @@ The BASE URL:
 
 ```	
 ### How to use our Email Webservice:
-- Two different URL path options 
-	- one takes an arrary of recipients' address in string form
-	- one takes an array of reciptient objects
+
